@@ -37,8 +37,11 @@ const Navbar = () => {
         </Flex>
         <IconButton
         onClick={setFlag.on}
+
           display={{ base: "block", md: "none" }}
+
           icon={<HamburgerIcon />}
+          
 
           
         ></IconButton>
