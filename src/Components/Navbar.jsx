@@ -48,16 +48,26 @@ const Navbar = () => {
       </Box>
      {flag && ( <Box
         pos="fixed"
+
         top="0"
+
         left="0"
+
         w="100vw"
+
         h="100vh"
+
         bgColor="white"
+
         zIndex={20}
+
         overflow="auto"
+
         display={{ base: "block", md: "none" }}
+
       >
         <Flex>
+          
             <Box pos="fixed" top="1rem" right="1rem">
                 <IconButton  icon={<CloseIcon/>}   onClick={setFlag.off}
 ></IconButton>
