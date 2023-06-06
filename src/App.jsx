@@ -8,10 +8,15 @@ import { Box } from '@chakra-ui/react';
 function App() {
   return (
     <div className="App">
+
       <Navbar/>
+
       <Box marginTop="3rem">
+
       <AllRoutes/>
+
       </Box>
+      
       <Footer/>
     </div>
   );
